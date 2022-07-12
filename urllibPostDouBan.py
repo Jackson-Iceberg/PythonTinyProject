@@ -24,4 +24,7 @@ content = response.read().decode('utf-8')
 fp = open('douban.json', 'w', encoding='utf-8')
 fp.write(content)
 
-print(content)
+with open('douban2.json', 'w', encoding='utf-8') as fp:
+    fp.write(content)
+
+# print(content)
