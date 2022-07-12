@@ -15,7 +15,7 @@ data = {
     'transtype': 'realtime',
     'simple_means_flag': '3',
     'sign': '198772.518981',
-    'token': '5483bfa652979b41f9c9Od91f3de875d',
+    'token': '9d9fc4674f99ed2dba2ddd22e3a0f131',
     'domain': 'common'
 }
 
@@ -29,7 +29,7 @@ response = urllib.request.urlopen(request)
 
 # 获取响应的数据
 content = response.read().decode('utf-8')
-print(content)
+# print(content)
 import json
 
 obj = json.loads(content)
